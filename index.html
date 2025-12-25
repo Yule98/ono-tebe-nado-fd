@@ -10,42 +10,42 @@
     <link rel="stylesheet" href="./styles/style.css">
   </head>
   <body>
-    <header>
-      <nav>
-        <ul class="header_menu">
-          <li class="header__menu_list_main-menu_li header_menu-item_active">
-        <a class="header__links-list-item" href="#">главная</a>
-          </li>
-          <li>
-        <a class="header__links-list-item" href="#">посмотреть лоты</a>
-          </li>
-          <li>
-        <a class="header__links-list-item" href="#">об аукционе</a>
-          </li>
-        </ul>
-       </nav>
-        <a class="header_logo">
-        <img 
-        class="header_logo-image"
-        src="./images/logo-black.svg"
-        alt="Логотип проекта"
-        />
-        </a>
-      <address>
+  <header class="header">
+    <nav>
+    <ul class="header_menu">
+      <li class="header__menu_list_main-menu_li header_menu-item_active">
+    <a class="header__links-list-item" href="#">главная</a>
+      </li>
+      <li>
+    <a class="header__links-list-item" href="#">посмотреть лоты</a>
+      </li>
+      <li>
+    <a class="header__links-list-item" href="#">об аукционе</a>
+      </li>
+     </ul>
+    </nav>
+    <a class="header_logo">
+    <img 
+    class="header_logo-image"
+    src="./images/logo-black.svg"
+    alt="Логотип проекта"
+    />
+    </a>
+      <address class="auction_address">
          <a href="tel:+99995555555">+9 999 555 5555<br></a>
-         <a href="mailto:info@sobaka.ge">info@sobaka.ge<br></a>
+         <a href="info@sobaka.ge">info@sobaka.ge<br></a>
          наб. Принсенграхт 263-<br>
          265, Амстердам
       </address>
-      </header>
+  </header>
     <main>
       <section class="cover">
         <div class="overlay"></div>
          <h1 class="cover_title">
-          <span class="accent--span accent--span_text-left">ОНО</span>
-          <span class="accent--span accent--span_text-center">ТЕБЕ</span>
-          <span class="accent--span accent--span_text-right">НАДО</span>
-        </h1>
+          <span class="accent--span accent--span_text-left">оно</span>
+          <span class="accent--span accent--span_text-center">тебе</span>
+          <span class="accent--span accent--span_text-right">надо</span>
+         </h1>
         <div class="cover_description">
           <p class="cover__description-text">
             Аукцион вещей, в которые никто не верил
@@ -54,16 +54,18 @@
         </div>
       </section>
       <section class="lots">
-        <h2 class="lots__heading">
+         <h2 class="lots__heading">
             Лоты
-        </h2>
+         </h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item_film">
             <a href="#" class="film">
               <article class="article_film">
                 <div class="overlay"></div>
-                <div class="film_title">Фильм режиссёра, который бросил киношколу</div>
-                <div class="film_text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</div>
+                <h3 class="film_title">Фильм режиссёра, который бросил киношколу
+                </h3>
+                <p class="film_text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+                </p>
                 </article>
             </a>
           </li>
@@ -71,8 +73,10 @@
             <a href="#" class="book">
               <article class="article_book">
                 <div class="overlay"></div>
-                <div class="book_title">Книга, где описан один скучный день из жизни рекламного агента</div>
-                <div class="book_text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</div>
+                <h3 class="book_title">Книга, где описан один скучный день из жизни рекламного агента
+                </h3>
+                <p class="book_text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
+                </p>
               </article>
             </a>
           </li>
@@ -80,8 +84,10 @@
             <a href="#" class="paint">
               <article class="article_paint">
                 <div class="overlay"></div>
-                <div class="paint_title">Картина, которую повторит даже 5-летний сын маминой подруги</div>
-                <div class="paint_text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</div>
+                <h3 class="paint_title">Картина, которую повторит даже 5-летний сын маминой подруги
+                </h3>
+                <p class="paint_text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?
+                </p>
               </article>
             </a>
           </li>
@@ -98,9 +104,9 @@
           </div>
           </div>
         <div class="about__column_text">
-          <h3 class="about__title">
+          <h2 class="about__title">
             Об аукционе
-          </h3>
+          </h2>
           <div class="about__text">
             <p>
               Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?
@@ -113,12 +119,12 @@
         </div>
         </section>
     </main>
-    <footer class="footer">
-      <address>
-        <a href="+9 999 555 5555">+9(999)5555555</a>
+  <footer class="footer">
+      <address class="auction_address">
+        <a href="+99995555555">+9(999)5555555</a>
         <a href="info@sobaka.ge">into@sobaka.ge</a>
         наб. Принсенграхт 263-265, Амстердам
-     </address>
+      </address>
      <nav class="footer_menu">
       <ul class="footer_menu-list">
           <li class="footer__menu-list-item footer_menu-item_active">
@@ -132,12 +138,12 @@
           </li>
       </ul>
      </nav>
-     <ul class="footer__social-list">
+      <ul class="footer__social-list">
         <li>
       <a class="footer_logo">
         <img 
         class="footer_logo-image"
-        src="file:///Users/ulia/dev/ono-tebe-nado-fd/images/yt.svg"
+        src="./images/yt.svg"
         alt="Логотип ютуб">
       </a>
         </li>
@@ -145,7 +151,7 @@
         <a class="footer_logo">
         <img 
         class="footer_logo-image"
-        src="file:///Users/ulia/dev/ono-tebe-nado-fd/images/vk.svg"
+        src="./images/vk.svg"
         alt="Логотип вконтакте">
       </a>
         </li>
@@ -153,11 +159,11 @@
       <a class="footer_logo">
         <img 
         class="footer_logo-image"
-        src="file:///Users/ulia/dev/ono-tebe-nado-fd/images/pinterest.svg"
+        src="./images/pinterest.svg"
         alt="Логотип пинтерест">
       </a>
         </li>
       </ul>
-     </footer>  
+  </footer>  
   </body>
 </html>
